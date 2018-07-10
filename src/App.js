@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">TOOLKIT</h1>
+          <h1 className="App-title">Custom Tweet Graphic Generator!</h1>
         </header>
         <NameGen/>
       </div>
