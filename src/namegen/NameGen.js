@@ -39,7 +39,7 @@ export class NameGen extends React.Component{
             <div>
                 <h1>Name Gen</h1>
                 <form className="form" onSubmit={this.handleForm.bind(this)}>
-                    <input type="text" className="name"/>
+                    <input type="text" className="name" placeholder="Person's name" />
                     <input type="submit" value="Generate" />
                 </form>
                 {loading ? <h2>Loading</h2> : null}
