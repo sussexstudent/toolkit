@@ -7,10 +7,11 @@ body {
 .name {
   font-size: 1.2em;
   padding: 0.2em;
-  box-shadow: 0 2px 0 4px rgba(30, 30, 30, 0.1);
+  border: 0;
+  box-shadow: 0 1px 4px 0 rgba(30, 30, 30, 0.1);
   transition: box-shadow ease 300ms;
 }
 
 .name:focus {
-  box-shadow: 0 3px 0 6px rgba(30, 30, 30, 0.15);  
+  box-shadow: 0 3px 6px 0 rgba(30, 30, 30, 0.15);  
 }
