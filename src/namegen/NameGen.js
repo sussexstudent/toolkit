@@ -42,7 +42,7 @@ export class NameGen extends React.Component{
                     <input type="text" className="name"/>
                     <input type="submit" value="Generate" />
                 </form>
-                {loading ? <h2>Loading!</h2> : null}
+                {loading ? <h2>Loading</h2> : null}
                 <a href={fileUrl} download disabled={fileUrl === null}>Download {generatedName}</a>
             </div>
         )
