@@ -44,6 +44,7 @@ export class NameGen extends React.Component{
                 </form>
                 {loading ? <h2>Loading</h2> : null}
                 <a href={fileUrl} download={`${generatedName}.png`} disabled={fileUrl === null}>Download {generatedName}</a>
+                <textarea readOnly>Congrats {generatedName}!</textarea>
             </div>
         )
     }
